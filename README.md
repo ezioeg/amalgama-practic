@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+## Ejercicio 1 - Componentes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Enunciar todos problemas o posibilidades de mejoras para este componente. Mencionar
+   cuáles de los problemas o posibilidades de mejoras enunciados son los más importantes.
+2. Refactorizar el código y adjuntar cómo quedaría la solución luego de la refactorización.
+3. Justificar lo realizado en el punto 2. explicando qué mejoras aporta y por qué soluciona lo
+   comentado en el punto 1.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Respuesta Ejercicio 1
 
-### `npm start`
+Problemas o posibles mejoras
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- El ejercicio tenia un error de cierre de parentesis "`)`" para el metodo `map`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  | Justificación              | Mejora            |
+  | -------------------------- | ----------------- |
+  | Corregir error de sintaxis | Visualizar la app |
 
-### `npm test`
+  Fragmento de código que presentaba el error ->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```javascript
+{
+  contact.addresses.map((address) => (
+    <ul>
+      <li>{address.line_1}</li>
+      <li>{address.line_2}</li>
+      <li>{address.zip_code}</li>
+      <li>{address.city}</li>
+      <li>{address.state}</li>
+    </ul>
+  )) // Aqui faltaba un parentesis de cierre
+}
+```
 
-### `npm run build`
+- Creacion de datos falsos (Data mockup). `contacts`, `states`, `cities`
+  | Justificación | Mejora |
+  | ------------------------------------------------------- | ------------------- |
+  | Simular datos | Velocidad de prueba |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Faltaba crear una función llamada `truncate`. Se deduce que limita la longitud de un texto. Esta función fue cambiada a `truncateString`.
+  | Justificación | Mejora |
+  | ------------------------------------------------------- | ------------------- |
+  | Utilizar un nombre mas descriptivo | Comprensión del código |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Faltaba crear una función llamada `findByID`. Se deduce que buscaba el nombre de un estado o ciudad por su ID. Esta función fue cambiada a `findNameByID`
+  | Justificación | Mejora |
+  | ------------------------------------------------------- | ------------------- |
+  | Utilizar un nombre mas descriptivo | Comprensión del código |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Hacer `arrow functions` para reducir lineas de código
+  | Justificación | Mejora |
+  | ------------------------------------------------------- | ------------------- |
+  | Reducir lineas de código | Código mas limpio/compacto, comprensión y mantenimiento del código |
 
-### `npm run eject`
+- Cambiar nombre de componente de `ContactsComponent` a `Contacts`
+  | Justificación | Mejora |
+  | ------------------------------------------------------- | ------------------- |
+  | Evita redundancia con la palabra `Component` | Crear estructura de carpetas para agrupar componentes y funciones|
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Crear componente hijo llamado `Contact` para el componente padre llamado `Contacts`
+  | Justificación | Mejora |
+  | ------------------------------------------------------- | ------------------- |
+  | Evitar componentes mas grandes y complejos | Reutilizar código, organizar y dividir la complejidad en fragmentos mas pequenos|
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Eliminar los warnings `Each child in a list should have a unique "key" prop.` Colocando una key prop a cada componente que se iteran en el metodo `map`
+  en los componentes `Contacts` y `Contact`
+  | Justificación | Mejora |
+  | ------------------------------------------------------- | ------------------- |
+  | Eliminar los warnings | Para react es mas facil interactuar/actualizar los items si estan identificados con una key unica|
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Puntos mas importante en el ejercicio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Corregir el error de sintaxis.
+- Crear una peque;a estructura de datos falsos.
+- Crear las funciones `truncate` y `findByID`(arrow functions).
+- Cambiar las funciones a nombres mas descriptivos.
+- Simplificar el código en el componente `Contacts` y crear un componente hijo reutilizable `Contact`.
+- Evitar redundancia en los nombres de componentes.
+- Agrupar componentes y funciones en carpetas.
+- Arreglar los warnings de `Each child in a list should have a unique "key" prop.`.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Ejercicio 2 - Estado
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Proponer cómo se podría guardar esta información en el estado local. Por ejemplo si se
+   usa redux, qué reducers se definirían o, si se usa, mobx que stores tendrías.
+2. Listar que problemas o puntos a destacar tiene la forma elegida.
+3. Adjuntar un JSON de cómo quedaría esta información guardada de la forma elegida en el punto 1.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Respuesta Ejercicio 2
 
-### Analyzing the Bundle Size
+Problemas o puntos a destacar (Redux)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Solo usar estados globales si es necesario. Evita complejidad innecesaria. Los patrones de los manejadores de estados pueden ser complicados a veces.
+- Redux es mas robusto para apps grandes. Sobre todo por el control y performance.
+- Para aplicaciones peque;as es mejor usar API Context de React. Es mas facil, sencillo y en apps peque;as no decae su performance.
