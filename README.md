@@ -42,12 +42,17 @@ amalgama-web-test/
 ├── public/
 ├── src/
 │   ├── components/
+│   ├── data-mockup/
 │   ├── redux/
 │   ├── services/
+│   ├── utils/
+│   ├── views/
 │   ├── App.js
 │   └── index.js
-├── package.json
-└── README.md
+├── .gitignore
+├── README.md
+├── package-lock.json
+└── package.json
 ```
 
 ## Ejercicio 1 - Componentes
