@@ -2,9 +2,9 @@
 
 ## Descripción
 
-Amalgama Web Test es una aplicación creada con React, Redux y Axios. Su objetivo es servir como prueba técnica relacionada con React, evaluando tanto la comprensión de sus conceptos fundamentales como la capacidad para trabajar con el estado global y realizar llamadas a APIs. Además, se enfoca en la mejora del código y la corrección de errores.
+Amalgama Web Test esta creada con el objetivo es servir como prueba técnica relacionada con React, evaluando tanto la comprensión de sus conceptos fundamentales como la capacidad para trabajar con el estado global y realizar llamadas a APIs. Además, se enfoca en la mejora del código y la corrección de errores.
 
-## Características
+## Tecnologías Usadas
 
 - **React**: Construida con componentes funcionales y hooks.
 - **Redux**: Manejo del estado global de manera eficiente.
@@ -157,11 +157,14 @@ Problemas o puntos a destacar (Redux)
 - Redux es mas robusto para apps grandes. Sobre todo por el control y performance.
 - Para aplicaciones peque;as es mejor usar API Context de React. Es mas facil, sencillo y en apps peque;as no decae su performance.
 
-Contribuciones
+## Contribuciones
+
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issue o un pull request.
 
-Licencia
+## Licencia
+
 Este proyecto está licenciado bajo la Licencia MIT.
 
-Autor
-Tu Nombre
+## Autor
+
+Ezio Escalona
