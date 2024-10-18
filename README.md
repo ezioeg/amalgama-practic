@@ -20,24 +20,24 @@ Amalgama Web Test creada con React, Redux y Axios. Su objetivo es servir como pr
 2. Navega al directorio del proyecto:
 
    ```bash
-cd amalgama-web-test
+   cd amalgama-web-test
 
 3. Instala las dependencias:
 
    ```bash
-npm install
+   npm install
 
 ## Uso
 
 Para iniciar la aplicación en modo de desarrollo, ejecuta:
 
    ```bash
-npm start
+   npm start
 
 Esto abrirá la aplicación en tu navegador por defecto en http://localhost:3000.
 
 ## Estructura del Proyecto
-   ```java
+
 amalgama-web-test/
 ├── public/
 ├── src/
