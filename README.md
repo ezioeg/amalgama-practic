@@ -35,6 +35,20 @@ Para iniciar la aplicación en modo de desarrollo, ejecuta:
 
 Esto abrirá la aplicación en tu navegador por defecto en http://localhost:3000.
 
+## Estructura del Proyecto
+
+   ```bash
+   amalgama-web-test/
+   ├── public/
+   ├── src/
+   │   ├── components/
+   │   ├── redux/
+   │   ├── services/
+   │   ├── App.js
+   │   └── index.js
+   ├── package.json
+   └── README.md
+
 ## Ejercicio 1 - Componentes
 
 1. Enunciar todos problemas o posibilidades de mejoras para este componente. Mencionar
