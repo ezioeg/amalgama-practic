@@ -161,10 +161,6 @@ Problemas o puntos a destacar (Redux)
 
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issue o un pull request.
 
-## Licencia
+## Contacto
 
-Este proyecto está licenciado bajo la Licencia MIT.
-
-## Autor
-
-Ezio Escalona
+Para preguntas o sugerencias, puedes contactarme a través de [ezioeg@gmail.com].
