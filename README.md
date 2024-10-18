@@ -28,12 +28,10 @@ Amalgama Web Test creada con React, Redux y Axios. Su objetivo es servir como pr
    npm install
 
 ## Uso
-
 Para iniciar la aplicación en modo de desarrollo, ejecuta:
 
    ```bash
    npm start
-
 Esto abrirá la aplicación en tu navegador por defecto en http://localhost:3000.
 
 ## Estructura del Proyecto
