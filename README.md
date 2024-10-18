@@ -2,14 +2,13 @@
 
 ## Descripción
 
-Amalgama Web Test es una aplicación creada con React, Redux y Axios. Su objetivo es servir como prueba técnica relacionada con React, evaluando tanto la comprensión de sus conceptos fundamentales como la capacidad para trabajar con el estado global y realizar llamadas a APIs.
+Amalgama Web Test creada con React, Redux y Axios. Su objetivo es servir como prueba técnica relacionada con React, evaluando tanto la comprensión de sus conceptos fundamentales como la capacidad para trabajar con el estado global y realizar llamadas a APIs.
 
 ## Características
 
 - **React**: Construida con componentes funcionales y hooks.
 - **Redux**: Manejo del estado global de manera eficiente.
 - **Axios**: Realiza solicitudes HTTP para interactuar con una API.
-- **Responsive Design**: La aplicación se adapta a diferentes tamaños de pantalla.
 
 ## Instalación
 
@@ -17,26 +16,30 @@ Amalgama Web Test es una aplicación creada con React, Redux y Axios. Su objetiv
 
    ```bash
    git clone https://github.com/tu-usuario/amalgama-web-test.git
-Navega al directorio del proyecto:
 
-bash
+2. Navega al directorio del proyecto:
+
+   ```bash
 Copiar código
 cd amalgama-web-test
-Instala las dependencias:
 
-bash
+3. Instala las dependencias:
+
+   ```bash
 Copiar código
 npm install
-Uso
+
+## Uso
+
 Para iniciar la aplicación en modo de desarrollo, ejecuta:
 
-bash
+   ```bash
 Copiar código
 npm start
 Esto abrirá la aplicación en tu navegador por defecto en http://localhost:3000.
 
-Estructura del Proyecto
-java
+## Estructura del Proyecto
+   ```javaScript
 Copiar código
 amalgama-web-test/
 ├── public/
