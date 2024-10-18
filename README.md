@@ -32,6 +32,7 @@ Para iniciar la aplicación en modo de desarrollo, ejecuta:
 
    ```bash
    npm start
+
 Esto abrirá la aplicación en tu navegador por defecto en http://localhost:3000.
 
 ## Estructura del Proyecto
