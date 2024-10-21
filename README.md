@@ -8,31 +8,6 @@ Amalgama Web Test es una prueba técnica web relacionada con React, evaluando ta
 - **Redux**
 - **Axios**
 
-## Instalación
-
-1. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/tu-usuario/amalgama-web-test.git
-
-2. Navega al directorio del proyecto:
-
-   ```bash
-   cd amalgama-web-test
-
-3. Instala las dependencias:
-
-   ```bash
-   npm install
-
-## Uso
-Para iniciar la aplicación en modo de desarrollo, ejecuta:
-
-   ```bash
-   npm start
-   ```
-Esto abrirá la aplicación en tu navegador por defecto en http://localhost:3000.
-
 ## Estructura del Proyecto
 
 ```javascript
@@ -154,6 +129,31 @@ Problemas o puntos a destacar (Redux)
 - Solo usar estados globales si es necesario. Evita complejidad innecesaria. Los patrones de los manejadores de estados pueden ser complicados a veces.
 - Redux es mas robusto para apps grandes. Sobre todo por el control y performance.
 - Para aplicaciones peque;as es mejor usar API Context de React. Es mas facil, sencillo y en apps peque;as no decae su performance.
+
+## Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/amalgama-web-test.git
+
+2. Navega al directorio del proyecto:
+
+   ```bash
+   cd amalgama-web-test
+
+3. Instala las dependencias:
+
+   ```bash
+   npm install
+
+## Uso
+Para iniciar la aplicación en modo de desarrollo, ejecuta:
+
+   ```bash
+   npm start
+   ```
+Esto abrirá la aplicación en tu navegador por defecto en http://localhost:3000.
 
 ## Contribuciones
 
