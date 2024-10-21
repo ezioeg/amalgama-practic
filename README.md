@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Amalgama Web Test esta desarrollado con el objetivo de servir como prueba técnica relacionada con React, evaluando tanto la comprensión de sus conceptos fundamentales como la capacidad para trabajar con el estado global y realizar llamadas a APIs. Además, se enfoca en la mejora del código y la corrección de errores.
+Amalgama Web Test fue creado con el objetivo de servir como prueba técnica relacionada con React, evaluando tanto la comprensión de sus conceptos fundamentales como la capacidad para trabajar con el estado global y realizar llamadas a APIs. Además, se enfoca en la mejora del código y la corrección de errores.
 
 ## Tecnologías Usadas
 
