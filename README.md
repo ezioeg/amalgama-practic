@@ -6,9 +6,9 @@ Amalgama Web Test esta desarrollado con el objetivo de servir como prueba técni
 
 ## Tecnologías Usadas
 
-- **React**: Construida con componentes funcionales y hooks.
-- **Redux**: Manejo del estado global de manera eficiente.
-- **Axios**: Realiza solicitudes HTTP para interactuar con una API.
+- **React**
+- **Redux**
+- **Axios**
 
 ## Instalación
 
