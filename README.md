@@ -1,6 +1,6 @@
-# Amalgama Web Test
+# Amalgama Test Web
 
-Amalgama Web Test es una prueba técnica web relacionada con React, evaluando tanto la comprensión de sus conceptos fundamentales como la capacidad para trabajar con el estado global y realizar llamadas a APIs. Además, se enfoca en la mejora del código y la corrección de errores.
+Amalgama Test Web es una prueba técnica web relacionada con React, evaluando tanto la comprensión de sus conceptos fundamentales como la capacidad para trabajar con el estado global y realizar llamadas a APIs. Además, se enfoca en la mejora del código y la corrección de errores.
 
 ## Tecnologías Usadas
 
