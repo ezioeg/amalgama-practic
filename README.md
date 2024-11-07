@@ -135,12 +135,12 @@ Problemas o puntos a destacar (Redux)
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/amalgama-web-test.git
+   git clone https://github.com/tu-usuario/amalgama-test-web.git
 
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd amalgama-web-test
+   cd amalgama-test-web
 
 3. Instala las dependencias:
 
