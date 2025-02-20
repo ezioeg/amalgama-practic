@@ -63,38 +63,37 @@ Issues or possible improvements:
 ```
 
 - Creation of mock data. `contacts`, `states`, `cities`
-  | Justificación | Mejora |
+  | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
   | Simular datos | Velocidad de prueba |
 
-- Faltaba crear una función llamada `truncate`. Se deduce que limita la longitud de un texto. Esta función fue cambiada a `truncateString`.
-  | Justificación | Mejora |
+- A missing function named truncate was assumed to limit text length. This function was renamed to truncateString.
+  | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
   | Utilizar un nombre mas descriptivo | Comprensión del código |
 
-- Faltaba crear una función llamada `findByID`. Se deduce que buscaba el nombre de un estado o ciudad por su ID. Esta función fue cambiada a `findNameByID`
-  | Justificación | Mejora |
+- A missing function named findByID was assumed to find a state or city name by its ID. This function was renamed to findNameByID.
+  | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
   | Utilizar un nombre mas descriptivo | Comprensión del código |
 
-- Hacer `arrow functions` para reducir lineas de código
-  | Justificación | Mejora |
+- Use arrow functions to reduce lines of code.
+  | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
   | Reducir lineas de código | Código mas limpio/compacto, comprensión y mantenimiento del código |
 
-- Cambiar nombre de componente de `ContactsComponent` a `Contacts`
-  | Justificación | Mejora |
+- Rename component from ContactsComponent to Contacts.
+  | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
   | Evita redundancia con la palabra `Component` | Crear estructura de carpetas para agrupar componentes y funciones|
 
-- Crear componente hijo llamado `Contact` para el componente padre llamado `Contacts`
-  | Justificación | Mejora |
+- Create a child component Contact inside the parent component Contacts.
+  | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
   | Evitar componentes mas grandes y complejos | Reutilizar código, organizar y dividir la complejidad en fragmentos mas pequenos|
 
-- Eliminar los warnings `Each child in a list should have a unique "key" prop.` Colocando una key prop a cada componente que se iteran en el metodo `map`
-  en los componentes `Contacts` y `Contact`
-  | Justificación | Mejora |
+- Remove the warning Each child in a list should have a unique "key" prop. by adding a unique key to each iterated component in the map method within Contacts and Contact.
+  | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
   | Eliminar los warnings | Para react es mas facil interactuar/actualizar los items si estan identificados con una key unica|
 
@@ -121,7 +120,7 @@ Most important points in the exercise:
 
 ## Exercise 2 Response
 
-Issues or key points (Redux)
+Issues or key points (Redux):
 
 - Only use global state when necessary to avoid unnecessary complexity. State management patterns can be difficult sometimes.
 - Redux is more robust for large applications, especially for control and performance optimization.
