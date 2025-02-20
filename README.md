@@ -1,14 +1,14 @@
 # Amalgama Practic
 
-Amalgama Practic es una prueba técnica web relacionada con React, evaluando tanto la comprensión de sus conceptos fundamentales como la capacidad para trabajar con el estado global y realizar llamadas a APIs. Además, se enfoca en la mejora del código y la corrección de errores.
+Amalgama Practic is a technical web test related to React, evaluating both the understanding of its fundamental concepts and the ability to work with global state and make API calls. Additionally, it focuses on code improvement and bug fixing.
 
-## Tecnologías Usadas
+## Technologies Used
 
 - **React**
 - **Redux**
 - **Axios**
 
-## Estructura del Proyecto
+## Project Structure
 
 ```javascript
 amalgama-web-test/
@@ -28,27 +28,25 @@ amalgama-web-test/
 └── package.json
 ```
 
-## Ejercicio 1 - Componentes
+## Exercise 1 - Components
 
-1. Enunciar todos problemas o posibilidades de mejoras para este componente. Mencionar
-   cuáles de los problemas o posibilidades de mejoras enunciados son los más importantes.
-2. Refactorizar el código y adjuntar cómo quedaría la solución luego de la refactorización.
-3. Justificar lo realizado en el punto 2. explicando qué mejoras aporta y por qué soluciona lo
-   comentado en el punto 1.
+1. List all issues or possible improvements for this component. Mention which of these are the most important.
+2. Refactor the code and attach the improved solution.
+3. Justify the changes made in point 2, explaining what improvements were made and why they solve the issues mentioned in point 1.
 
 ---
 
-## Respuesta Ejercicio 1
+## Exercise 1 Response
 
-Problemas o posibles mejoras
+Issues or possible improvements:
 
-- El ejercicio tenia un error de cierre de parentesis "`)`" para el metodo `map`.
+- The exercise had a missing closing parenthesis ")" for the map method.
 
-  | Justificación              | Mejora            |
-  | -------------------------- | ----------------- |
-  | Corregir error de sintaxis | Visualizar la app |
+  | Justification              | Improvement            |
+  | -------------------------- | ---------------------- |
+  | Fix syntax error	          | Display the app        |
 
-  Fragmento de código que presentaba el error ->
+  Code snippet with the error:
 
 ```javascript
 {
@@ -60,11 +58,11 @@ Problemas o posibles mejoras
       <li>{address.city}</li>
       <li>{address.state}</li>
     </ul>
-  )) // Aqui faltaba un parentesis de cierre
+  )) // A closing parenthesis was missing here
 }
 ```
 
-- Creacion de datos falsos (Data mockup). `contacts`, `states`, `cities`
+- Creation of mock data. `contacts`, `states`, `cities`
   | Justificación | Mejora |
   | ------------------------------------------------------- | ------------------- |
   | Simular datos | Velocidad de prueba |
@@ -100,65 +98,64 @@ Problemas o posibles mejoras
   | ------------------------------------------------------- | ------------------- |
   | Eliminar los warnings | Para react es mas facil interactuar/actualizar los items si estan identificados con una key unica|
 
-Puntos mas importante en el ejercicio
+Most important points in the exercise:
 
-- Corregir el error de sintaxis.
-- Crear una peque;a estructura de datos falsos.
-- Crear las funciones `truncate` y `findByID`(arrow functions).
-- Cambiar las funciones a nombres mas descriptivos.
-- Simplificar el código en el componente `Contacts` y crear un componente hijo reutilizable `Contact`.
-- Evitar redundancia en los nombres de componentes.
-- Agrupar componentes y funciones en carpetas.
-- Arreglar los warnings de `Each child in a list should have a unique "key" prop.`.
-
----
-
-## Ejercicio 2 - Estado
-
-1. Proponer cómo se podría guardar esta información en el estado local. Por ejemplo si se
-   usa redux, qué reducers se definirían o, si se usa, mobx que stores tendrías.
-2. Listar que problemas o puntos a destacar tiene la forma elegida.
-3. Adjuntar un JSON de cómo quedaría esta información guardada de la forma elegida en el punto 1.
+- Fix syntax error.
+- Create a small mock data structure.
+- Create truncate and findByID functions (as arrow functions).
+- Use more descriptive function names.
+- Simplify the Contacts component and create a reusable Contact component.
+- Avoid redundancy in component names.
+- Organize components and functions into folders.
+- Fix warnings related to unique key props.
 
 ---
 
-## Respuesta Ejercicio 2
+## Exercise 2 - State
 
-Problemas o puntos a destacar (Redux)
+1. Propose how this information could be stored in the local state. For example, if using Redux, define the reducers, or if using MobX, define the stores.
+2. List any issues or key points regarding the chosen approach.
+3. Attach a JSON representation of how the data would be stored based on point 1.
 
-- Solo usar estados globales si es necesario. Evita complejidad innecesaria. Los patrones de los manejadores de estados pueden ser complicados a veces.
-- Redux es mas robusto para apps grandes. Sobre todo por el control y performance.
-- Para aplicaciones peque;as es mejor usar API Context de React. Es mas facil, sencillo y en apps peque;as no decae su performance.
+---
 
-## Instalación
+## Exercise 2 Response
 
-1. Clona el repositorio:
+Issues or key points (Redux)
+
+- Only use global state when necessary to avoid unnecessary complexity. State management patterns can be difficult sometimes.
+- Redux is more robust for large applications, especially for control and performance optimization.
+- For small applications, the React Context API is a better choice as it is simpler and does not impact performance in small-scale use.
+
+## Setup
+
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/tu-usuario/amalgama-practic.git
 
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
 
    ```bash
    cd amalgama-practic
 
-3. Instala las dependencias:
+3. Install dependencies:
 
    ```bash
    npm install
 
-## Uso
-Para iniciar la aplicación en modo de desarrollo, ejecuta:
+## Run
+To start the application in development mode, run:
 
    ```bash
    npm start
    ```
-Esto abrirá la aplicación en tu navegador por defecto en http://localhost:3000.
+This will open the application in your default browser at http://localhost:3000.
 
-## Contribuciones
+## Contributions
 
-Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issue o un pull request.
+Contributions are welcome. If you want to improve the project, please create a fork and submit a pull request.
 
-## Contacto
+## Contact
 
-Para preguntas o sugerencias, puedes contactarme a través de [ezioeg@gmail.com].
+For questions or suggestions, you can contact me at [ezioeg@gmail.com].
