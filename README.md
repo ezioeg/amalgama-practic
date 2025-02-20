@@ -65,37 +65,37 @@ Issues or possible improvements:
 - Creation of mock data. `contacts`, `states`, `cities`
   | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
-  | Simular datos | Velocidad de prueba |
+  | Simulate data | Faster testing |
 
-- A missing function named truncate was assumed to limit text length. This function was renamed to truncateString.
+- A missing function named `truncate` was assumed to limit text length. This function was renamed to `truncateString`.
   | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
-  | Utilizar un nombre mas descriptivo | Comprensión del código |
+  | Use a more descriptive name | Code readability|
 
-- A missing function named findByID was assumed to find a state or city name by its ID. This function was renamed to findNameByID.
+- A missing function named `findByID` was assumed to find a state or city name by its ID. This function was renamed to `findNameByID`.
   | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
-  | Utilizar un nombre mas descriptivo | Comprensión del código |
+  | Use a more descriptive name | Code readability |
 
-- Use arrow functions to reduce lines of code.
+- Use `arrow functions` to reduce lines of code.
   | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
-  | Reducir lineas de código | Código mas limpio/compacto, comprensión y mantenimiento del código |
+  | Reduce lines of code | Cleaner, more maintainable code |
 
-- Rename component from ContactsComponent to Contacts.
+- Rename component from `ContactsComponent` to `Contacts`.
   | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
-  | Evita redundancia con la palabra `Component` | Crear estructura de carpetas para agrupar componentes y funciones|
+  | Avoid redundancy with Component | Better project structure|
 
-- Create a child component Contact inside the parent component Contacts.
+- Create a child component `Contact` inside the parent component `Contacts`.
   | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
-  | Evitar componentes mas grandes y complejos | Reutilizar código, organizar y dividir la complejidad en fragmentos mas pequenos|
+  | Avoid large and complex components | Reuse code, organize complexity into smaller parts|
 
-- Remove the warning Each child in a list should have a unique "key" prop. by adding a unique key to each iterated component in the map method within Contacts and Contact.
+- Remove the warning `Each child in a list should have a unique "key" prop.` by adding a unique key to each iterated component in the `map` method within `Contacts` and `Contact`.
   | Justification | Improvement |
   | ------------------------------------------------------- | ------------------- |
-  | Eliminar los warnings | Para react es mas facil interactuar/actualizar los items si estan identificados con una key unica|
+  | Remove warnings | Helps React optimize rendering|
 
 Most important points in the exercise:
 
