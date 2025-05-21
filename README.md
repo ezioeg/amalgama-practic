@@ -122,11 +122,11 @@ Issues or key points (Redux):
 - For small applications, the React Context API is a better choice as it is simpler and does not impact performance in small-scale use.
 
 ## Setup
-1. Install dependencies:
+Install dependencies:
 
    ```bash
    npm install
-
+   ```
 ## Run
 To start the application in development mode, run:
 
