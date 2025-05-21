@@ -1,9 +1,7 @@
 # Amalgama Practic
-
 Amalgama Practic is a technical web test related to React, evaluating both the understanding of its fundamental concepts and the ability to work with global state and make API calls. Additionally, it focuses on code improvement and bug fixing.
 
 ## Technologies Used
-
 - React v17.0.2
 - Redux v4.1.2
 - React Redux v7.2.6
@@ -11,7 +9,6 @@ Amalgama Practic is a technical web test related to React, evaluating both the u
 - Axios v0.26.0
 
 ## Project Structure
-
 ```javascript
 amalgama-web-test/
 ├── public/
@@ -31,7 +28,6 @@ amalgama-web-test/
 ```
 
 ## Exercise 1 - Components
-
 1. List all issues or possible improvements for this component. Mention which of these are the most important.
 2. Refactor the code and attach the improved solution.
 3. Justify the changes made in point 2, explaining what improvements were made and why they solve the issues mentioned in point 1.
@@ -39,7 +35,6 @@ amalgama-web-test/
 ---
 
 ## Exercise 1 Response
-
 Issues or possible improvements:
 
 - The exercise had a missing closing parenthesis ")" for the map method.
@@ -113,7 +108,6 @@ Most important points in the exercise:
 ---
 
 ## Exercise 2 - State
-
 1. Propose how this information could be stored in the local state. For example, if using Redux, define the reducers, or if using MobX, define the stores.
 2. List any issues or key points regarding the chosen approach.
 3. Attach a JSON representation of how the data would be stored based on point 1.
@@ -121,7 +115,6 @@ Most important points in the exercise:
 ---
 
 ## Exercise 2 Response
-
 Issues or key points (Redux):
 
 - Only use global state when necessary to avoid unnecessary complexity. State management patterns can be difficult sometimes.
@@ -129,18 +122,7 @@ Issues or key points (Redux):
 - For small applications, the React Context API is a better choice as it is simpler and does not impact performance in small-scale use.
 
 ## Setup
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/tu-usuario/amalgama-practic.git
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd amalgama-practic
-
-3. Install dependencies:
+1. Install dependencies:
 
    ```bash
    npm install
@@ -154,9 +136,7 @@ To start the application in development mode, run:
 This will open the application in your default browser at http://localhost:3000.
 
 ## Contributions
-
 Contributions are welcome. If you want to improve the project, please create a fork and submit a pull request.
 
 ## Contact
-
 For questions or suggestions, you can contact me at [ezioeg@gmail.com].
