@@ -4,9 +4,11 @@ Amalgama Practic is a technical web test related to React, evaluating both the u
 
 ## Technologies Used
 
-- **React**
-- **Redux**
-- **Axios**
+- React v17.0.2
+- Redux v4.1.2
+- React Redux v7.2.6
+- Redux Thunk v2.4.1
+- Axios v0.26.0
 
 ## Project Structure
 
