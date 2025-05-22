@@ -2,30 +2,16 @@
 Amalgama Practic is a technical web test related to React, evaluating both the understanding of its fundamental concepts and the ability to work with global state and make API calls. Additionally, it focuses on code improvement and bug fixing.
 
 ## Technologies Used
-- React v17.0.2
-- Redux v4.1.2
-- React Redux v7.2.6
-- Redux Thunk v2.4.1
-- Axios v0.26.0
+### Core
+- [React](https://reactjs.org/) `v17.0.2`
 
-## Project Structure
-```javascript
-amalgama-web-test/
-├── public/
-├── src/
-│   ├── components/
-│   ├── data-mockup/
-│   ├── redux/
-│   ├── services/
-│   ├── utils/
-│   ├── views/
-│   ├── App.js
-│   └── index.js
-├── .gitignore
-├── README.md
-├── package-lock.json
-└── package.json
-```
+### State Management
+- [Redux](https://redux.js.org/) `v4.1.2`
+- [React Redux](https://react-redux.js.org/) `v7.2.6`
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk) `v2.4.1`
+
+### Utilities
+- [Axios](https://axios-http.com/) `v0.26.0`
 
 ## Exercise 1 - Components
 1. List all issues or possible improvements for this component. Mention which of these are the most important.
