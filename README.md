@@ -1,5 +1,5 @@
-# Amalgama Practic
-Amalgama Practic is a technical web test related to React, evaluating both the understanding of its fundamental concepts and the ability to work with global state and make API calls. Additionally, it focuses on code improvement and bug fixing.
+## ⚛️ Amalgama Practic  
+Technical web test focused on React fundamentals, global state management, and API integration. The evaluation includes code improvement and bug fixing skills.
 
 ## Technologies Used
 ### Core
